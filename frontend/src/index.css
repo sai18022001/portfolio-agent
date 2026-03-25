@@ -1,0 +1,13 @@
+/* frontend/src/index.css */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #0f0f0f;
+  color: #f0f0f0;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% { transform: translateY(0); }
+  40%           { transform: translateY(-6px); }
+}

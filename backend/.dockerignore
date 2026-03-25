@@ -1,0 +1,6 @@
+venv/
+--pycache__/
+*.pyc
+.env
+data/pdfs/
+test_*.py
