@@ -21,4 +21,4 @@ def test_rag_tool_no_results():
     with patch("agent.tools.retrieve_relevant_chunks") as mock_retrieve:
         mock_retrieve.return_value = []
         result = search_financial_documents.invoke({"query": "test query"})
-        assert "No relevant documents" in result
+        assert "no relevant documents" in result
