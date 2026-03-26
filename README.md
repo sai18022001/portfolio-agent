@@ -1,6 +1,6 @@
 # AI Portfolio Research Agent
 
-![CI](https://github.com/YOUR_USERNAME/portfolio-agent/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/sai18022001/portfolio-agent/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-agent-green)
 ![Docker](https://img.shields.io/badge/Docker-containerized-blue)
@@ -89,10 +89,9 @@ User → React Chat UI
 ### Run with Docker
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/portfolio-agent
+git clone https://github.com/sai18022001/portfolio-agent
 cd portfolio-agent
 
-cp .env.example .env
 # Fill in your API keys in .env
 
 docker-compose up --build
